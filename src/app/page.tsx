@@ -1,3 +1,4 @@
+import Heading from '@/components/ui/Heading';
 import Paragraph from '@/components/ui/Paragraph';
 
 const HomePage = () => {
@@ -7,6 +8,10 @@ const HomePage = () => {
      <Paragraph size="sm" >
       hie
       </Paragraph>
+
+    <Heading size="default">
+      Hello World!
+    </Heading>
      </div>
     </>
   )
