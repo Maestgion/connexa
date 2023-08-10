@@ -3,7 +3,7 @@ import { HTMLAttributes, forwardRef } from "react";
 import { cn } from "@/lib/utils";
 
 const headingVariants = cva(
-    "text-white dark:text-black text-center lg:text-left",{
+    "text-black dark:text-white text-center lg:text-left font-extrabold tracking-tight",{
         variants:{
             size:{
                 default: "text-4xl md:text-5xl lg:text-6xl",
