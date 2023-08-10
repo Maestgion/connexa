@@ -11,8 +11,8 @@ const Navbar = () => {
 
   return (
     <>
-        <div className='h-20 fixed top-0 right-0 left-0 border-b border-slate-300 dark:border-slate-700 backdrp-blur-md  shadow-sm bg-white/75 dark:bg-slate-900/5 z-99'>
-            <div className='container w-full max-w-7xl flex justify-between items-center'>
+        <div className='h-20 fixed top-0 right-0 left-0 border-b border-slate-300 dark:border-slate-700 backdrop-blur-md  shadow-sm bg-white/75 dark:bg-slate-900/5 z-99  flex justify-between items-center'>
+            <div className='container w-full max-w-7xl mx-auto flex justify-between items-center'>
 
             <Link href="/" 
             className={buttonVariants({variant: 'link'})}
@@ -58,6 +58,8 @@ const Navbar = () => {
                 
             </div>
         </div>
+
+        
     </>
   )
 }
