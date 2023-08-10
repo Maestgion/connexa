@@ -19,7 +19,7 @@ const buttonVariants =  cva(
                 default: 'h-10 py-2 px-4',
                 sm: 'h-9 px-2 rounded-md',
                 lg: 'h-11 px-8 rounded-md',
-
+                rounded: 'h-9 px-2 rounded-full'
             }
         },
         defaultVariants:{
@@ -49,4 +49,4 @@ const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps>(({cla
 
 Button.displayName = 'Button'
 
-export default Button;
+export {Button, buttonVariants};
