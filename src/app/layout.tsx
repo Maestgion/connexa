@@ -14,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={cn("bg-white text-slate-900  antialiased", inter.className)}>
-      <body className='antialiased min-h-screen dark:bg-slate-900 bg-white'>
+    <html lang="en" className={cn("bg-white text-slate-900  antialiased", inter.className)} >
+      <body className='antialiased min-h-screen dark:bg-slate-900 bg-white '>
         
         <Provider>
         <Navbar/>

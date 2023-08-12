@@ -4,7 +4,7 @@ import Paragraph from '@/components/ui/Paragraph';
 const HomePage = () => {
   return (
     <>
-
+        
     </>
   )
 }
