@@ -41,7 +41,7 @@ const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps>(({cla
         disabled={isLoading}
         {...props}
         >   
-            {isLoading ? <Loader2 className = "h-4 w-4 mr-2 animate-spins"/>: null}
+            {isLoading ? <Loader2 className = "h-4 w-4 mr-2 animate-spin"/>: null}
             {children}
         </button>
     )

@@ -19,10 +19,11 @@ export default function RootLayout({
         
         <Provider>
         <Navbar/>
-        <main>
+        <main className='bg-gradient-to-tr from-white from-45% via-purple-300 via-55% to-white to-85% dark:bg-gradient-to-tr dark:from-slate-900  ' >
+
         {children}
 
-        </main>
+        </main> 
         </Provider>
         
    </body>
