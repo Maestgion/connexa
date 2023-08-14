@@ -1,6 +1,13 @@
 import Heading from '@/components/ui/Heading';
 import Paragraph from '@/components/ui/Paragraph';
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+
+export const metadata:Metadata = {
+  title: 'Connexa | Home',
+  description: 'A free & open-source api for gauging text similarity',
+}
 
 const HomePage = () => {
   return (

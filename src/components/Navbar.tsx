@@ -14,9 +14,11 @@ const Navbar = () => {
         <div className='h-[10vh] fixed top-0 right-0 left-0 border-b border-slate-300 dark:border-slate-700 backdrop-blur-md  shadow-sm bg-white/75 dark:bg-slate-900/5 z-99  flex justify-between items-center'>
             <div className='container w-full max-w-7xl mx-auto flex justify-between items-center px-4'>
 
-                <p className='text-black font-semibold text-2xl cursor-pointer dark:text-white'>
+               <Link href="/">
+               <p className='text-black font-semibold text-2xl cursor-pointer dark:text-white'>
                     Connexa
                 </p>
+               </Link>
 
         
             <div className='md:hidden'>
