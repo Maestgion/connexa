@@ -22,12 +22,12 @@ const DocumentationTabs: FC = ()=>{
             </TabsList>
 
             <TabsContent value='nodejs'>
-                <SimpleBar forceVisible='y' className='max-h-[70vh] overflow-y-hidden '>
+                <SimpleBar forceVisible='y' >
                     <Code animated code={nodejs} language='javascript' show/>
                 </SimpleBar>
             </TabsContent>
             <TabsContent value='python'>
-                <SimpleBar forceVisible='y' className='min-h-screen '>
+                <SimpleBar forceVisible='y' >
                     <Code animated code={python} language='python' show/>
                 </SimpleBar>
             </TabsContent>
