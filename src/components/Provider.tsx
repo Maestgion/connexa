@@ -1,6 +1,6 @@
 "use client"
 
-import { FC, ReactNode } from "react";
+import { FC } from "react";
 import { ThemeProvider } from "next-themes"
 
 interface ProviderProps {
