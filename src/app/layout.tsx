@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={cn("bg-white text-slate-900  antialiased", inter.className)} >
-      <body className='antialiased min-h-screen dark:bg-slate-900 bg-white '>
+      <body className='antialiased min-h-screen dark:bg-slate-900 bg-white scrollbar-hide'>
         
         <Provider>
         <Navbar/>

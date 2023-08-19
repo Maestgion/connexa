@@ -30,14 +30,14 @@ const DocumentationTabs: FC = ()=>{
                 </TabsTrigger>
             </TabsList>
 
-            <TabsContent value='nodejs' className='my-4  overflow-scroll scrollbar-hide'>
+            <TabsContent value='nodejs' className='my-4  overflow-scroll scrollbar-hide '>
                 
            
             <Code animated code={nodejs} language='javascript' show/>
 
                 
             </TabsContent>
-            <TabsContent value='python' className='my-4  overflow-scroll'>
+            <TabsContent value='python' className='my-4  overflow-scroll scrollbar-hide '>
                 
                     <Code animated code={python} language='python' show/>
                 
